@@ -16,14 +16,14 @@
   if (!requireNamespace("utils", quietly = TRUE)) {
     stop("需要安装 'utils' 包")
   }
-  checkManage()
-  #suppressWarnings({
-  #  untrace("med_cal", where = asNamespace(pkgname))
-  #})
-  #f <- get("med_cal", envir =  asNamespace(pkgname))
-  #lockEnvironment(environment(f), bindings = TRUE)
-
-  packageStartupMessage("授权成功！请继续访问")
+  # checkManage()
+  # #suppressWarnings({
+  # #  untrace("med_cal", where = asNamespace(pkgname))
+  # #})
+  # #f <- get("med_cal", envir =  asNamespace(pkgname))
+  # #lockEnvironment(environment(f), bindings = TRUE)
+  # 
+  # packageStartupMessage("授权成功！请继续访问")
 }
 
 #' @keywords internal
